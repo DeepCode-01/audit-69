@@ -1,19 +1,16 @@
 body {
     color: white;
     overflow-x: hidden;
-    /* background-color: #012;
-    background-image: url("https://cssanimation.rocks/starwars/images/bg.jpg");
-    background-size: 33%;
-    background-repeat: repeat; */
     min-height: 2025px;
     /* font-family: "Roboto", sans-serif; */
     font-family: "DM Sans", sans-serif;
-    /* background-image: radial-gradient(circle, #230444, #3d0149, #54004b, #6a004c, #7e004b, #7e004d, #7f004f, #7f0051, #690556, #510d59, #351359, #0e1555); */
-    /* background-image: linear-gradient(to right, #1d2b53, #281e3b, #241525, #190c14, #000000); */
-    /* background-image: linear-gradient(to right top, #1d2b53, #1f2d56, #212e58, #24305b, #26325e, #1a325a, #0e3155, #03304f, #002b3e, #05242d, #0e1c1f, #121414); */
-    /* background-image: linear-gradient(to right bottom, #984a59, #864768, #6e4871, #514972, #33486c, #274361, #1f3e55, #1a3849, #1b2f3c, #1b2730, #191f24, #161718); */
+  
     background-image: linear-gradient(to left top, #030637, #060f3a, #0c143c, #12193f, #181e41, #182345, #192848, #1b2d4b, #183350, #153954, #133e57, #13445a);
     /* background-image: linear-gradient(to left top, #984a59, #79415c, #583a57, #3b3249, #252835, #212631, #1d232c, #1a2128, #1c2934, #1c3241, #193b4d, #13445a); */
+}
+
+p>button{
+  color: white;
 }
 
 
@@ -32,7 +29,7 @@ body {
 }
 
 nav {
-    /* background-color: #7D1935; */
+   
     background-color: #B21F66;
     /* color: white; */
 }
@@ -48,6 +45,7 @@ nav>div {
 
 button {
     box-shadow: 0 0.5em 0.5em -0.4em #000000;
+    margin-left: 20px;
 
     /* "to left" / "to right" - affects initial color */
     background: linear-gradient(to left, #970747 50%, #B72A67 50%) right;
@@ -76,11 +74,6 @@ button:hover {
     transform: translateY(-8px);
 }
 
-/* button:active {
-    transform: translateY(2px);
-    box-shadow: #665367 0 0 0;
-
-} */
 
 .card {
     width: 25rem;
@@ -120,7 +113,7 @@ button:hover {
 }
 
 .home-img:hover {
-    /* box-shadow: 0 0 0 10px #9C254D; */
+ 
     transition: .5s ease;
     cursor: pointer;
     box-shadow: #2D3250 0px 13px 27px -5px,#2D3250 0px 8px 16px -8px, #2D3250 0px 8px 16px -8px, #ffffff 0px 8px 16px -8px;
@@ -144,16 +137,6 @@ button:hover {
 }
 
 
-video {
-    width: 100vw;
-    height: 699px;
-    object-fit: cover;
-    /* filter: blur(13px); */
-
-
-    margin-top: -99px;
-    opacity: 0.6;
-}
 
 .home-con>div {
     color: white;
@@ -165,7 +148,7 @@ video {
 }
 .spe-div{
     margin-top: 20%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 
 
